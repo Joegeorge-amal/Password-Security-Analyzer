@@ -23,5 +23,6 @@ def main():
         print(f"\n\t⚠ Found in breaches {breach_count} times")
     else:
         print("\n✔ Not found in known breaches")
+if __name__ == '__main__':
+    main()
 
-main()
